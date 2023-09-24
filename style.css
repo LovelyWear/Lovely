@@ -1,0 +1,132 @@
+/* Custom CSS */
+
+/* Example CSS for image hover transition */
+.card-img-top {
+    transition: transform 0.2s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+/* Produk */
+/* Gaya CSS untuk tampilan produk dan tautan kembali */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product-image img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.product-info {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+.home-link {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+/* Kontak */
+/* Gaya CSS untuk tampilan kontak */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk animasi */
+.animate-fade {
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ... (gaya CSS lainnya) ... */
+
+.home-link {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
